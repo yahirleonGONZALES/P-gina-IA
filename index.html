@@ -1,17 +1,21 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>NEXA AI — Inteligencia Artificial de Próxima Generación</title>
+  <title>nexety IA — Inteligencia Artificial de Próxima Generación</title>
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap"
+    rel="stylesheet">
   <!-- Lucide Icons CDN -->
   <script src="https://unpkg.com/lucide@latest"></script>
   <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
   <!-- Fondo dinámico con partículas y gradiente -->
   <canvas id="neuralCanvas"></canvas>
@@ -53,62 +57,63 @@
   <!-- Hero Section -->
   <section class="hero" id="hero">
     <div class="container hero-container flex-hero">
-  <div class="hero-content">
-    <div class="hero-badge animate-fade-in">
-      <span class="badge-pulse"></span>
-      <i data-lucide="zap" class="badge-icon"></i>
-      <span>NEXA Core 4.5 ya está disponible</span>
-      <i data-lucide="chevron-right" class="badge-arrow"></i>
-    </div>
+      <div class="hero-content">
+        <div class="hero-badge animate-fade-in">
+          <span class="badge-pulse"></span>
+          <i data-lucide="zap" class="badge-icon"></i>
+          <span>NEXA Core 4.5 ya está disponible</span>
+          <i data-lucide="chevron-right" class="badge-arrow"></i>
+        </div>
 
-    <h1 class="hero-title animate-fade-in-up">
-      La Inteligencia Artificial que <br>
-      <span class="text-gradient-shimmer">redefine lo posible</span>
-    </h1>
+        <h1 class="hero-title animate-fade-in-up">
+          La Inteligencia Artificial que <br>
+          <span class="text-gradient-shimmer">redefine lo posible</span>
+        </h1>
 
-    <p class="hero-description animate-fade-in-up delay-1">
-      Acelera tu flujo de trabajo con redes neuronales multimodales diseñadas para código, análisis predictivo y creatividad sin límites con una latencia inferior a 25ms.
-    </p>
+        <p class="hero-description animate-fade-in-up delay-1">
+          Acelera tu flujo de trabajo con redes neuronales multimodales diseñadas para código, análisis predictivo y
+          creatividad sin límites con una latencia inferior a 25ms.
+        </p>
 
-    <div class="hero-cta animate-fade-in-up delay-2">
-      <a href="#playground" class="btn btn-primary btn-lg glow-btn">
-        <i data-lucide="terminal"></i>
-        <span>Explorar Demo Interactiva</span>
-      </a>
-      <a href="#developer" class="btn btn-glass btn-lg">
-        <i data-lucide="code-2"></i>
-        <span>Ver Documentación API</span>
-      </a>
-    </div>
+        <div class="hero-cta animate-fade-in-up delay-2">
+          <a href="#playground" class="btn btn-primary btn-lg glow-btn">
+            <i data-lucide="terminal"></i>
+            <span>Explorar Demo Interactiva</span>
+          </a>
+          <a href="#developer" class="btn btn-glass btn-lg">
+            <i data-lucide="code-2"></i>
+            <span>Ver Documentación API</span>
+          </a>
+        </div>
 
-    <!-- Quick Metrics Pill -->
-    <div class="hero-metrics animate-fade-in-up delay-3">
-      <div class="metric-pill">
-        <i data-lucide="cpu" class="metric-icon"></i>
-        <span class="metric-val">100B+</span>
-        <span class="metric-lbl">Parámetros</span>
+        <!-- Quick Metrics Pill -->
+        <div class="hero-metrics animate-fade-in-up delay-3">
+          <div class="metric-pill">
+            <i data-lucide="cpu" class="metric-icon"></i>
+            <span class="metric-val">100B+</span>
+            <span class="metric-lbl">Parámetros</span>
+          </div>
+          <div class="metric-separator"></div>
+          <div class="metric-pill">
+            <i data-lucide="gauge" class="metric-icon"></i>
+            <span class="metric-val">18ms</span>
+            <span class="metric-lbl">Latencia Media</span>
+          </div>
+          <div class="metric-separator"></div>
+          <div class="metric-pill">
+            <i data-lucide="shield-check" class="metric-icon"></i>
+            <span class="metric-val">99.99%</span>
+            <span class="metric-lbl">Disponibilidad</span>
+          </div>
+        </div>
       </div>
-      <div class="metric-separator"></div>
-      <div class="metric-pill">
-        <i data-lucide="gauge" class="metric-icon"></i>
-        <span class="metric-val">18ms</span>
-        <span class="metric-lbl">Latencia Media</span>
-      </div>
-      <div class="metric-separator"></div>
-      <div class="metric-pill">
-        <i data-lucide="shield-check" class="metric-icon"></i>
-        <span class="metric-val">99.99%</span>
-        <span class="metric-lbl">Disponibilidad</span>
+      <div class="hero-visual">
+        <!-- Subtle animated SVG representing AI interaction -->
+        <svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" class="hero-svg">
+          <circle cx="100" cy="100" r="80" stroke="var(--accent-primary)" stroke-width="4" fill="none" />
+        </svg>
       </div>
     </div>
-  </div>
-  <div class="hero-visual">
-    <!-- Subtle animated SVG representing AI interaction -->
-    <svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" class="hero-svg">
-      <circle cx="100" cy="100" r="80" stroke="var(--accent-primary)" stroke-width="4" fill="none"/>
-    </svg>
-  </div>
-</div>
   </section>
 
   <!-- Live Playground Section -->
@@ -117,7 +122,8 @@
       <div class="section-header text-center">
         <span class="section-subtitle">INTERFAZ EN VIVO</span>
         <h2 class="section-title">Experimenta el poder de NEXA</h2>
-        <p class="section-desc">Selecciona un caso de uso o escribe tu propia instrucción para ver la inferencia en tiempo real.</p>
+        <p class="section-desc">Selecciona un caso de uso o escribe tu propia instrucción para ver la inferencia en
+          tiempo real.</p>
       </div>
 
       <div class="playground-card glass-card">
@@ -160,7 +166,8 @@
 
         <div class="playground-body">
           <div class="playground-input-group">
-            <textarea id="promptInput" placeholder="Escribe tu instrucción para NEXA AI..." rows="3">Crea una función asíncrona en TypeScript con reintentos exponenciales y manejo de excepciones.</textarea>
+            <textarea id="promptInput" placeholder="Escribe tu instrucción para NEXA AI..."
+              rows="3">Crea una función asíncrona en TypeScript con reintentos exponenciales y manejo de excepciones.</textarea>
             <button class="btn btn-primary" id="generateBtn">
               <span id="generateBtnText">Generar</span>
               <i data-lucide="send" id="generateBtnIcon"></i>
@@ -174,7 +181,8 @@
                 <span id="tokenCount">342 tokens</span> • <span id="responseTime">0.24s</span>
               </span>
             </div>
-            <pre class="output-content"><code id="outputCode">Haz clic en "Generar" o escribe una consulta para ver la respuesta inteligente generada en tiempo real...</code></pre>
+            <pre
+              class="output-content"><code id="outputCode">Haz clic en "Generar" o escribe una consulta para ver la respuesta inteligente generada en tiempo real...</code></pre>
           </div>
         </div>
       </div>
@@ -187,7 +195,8 @@
       <div class="section-header text-center">
         <span class="section-subtitle">CAPACIDADES EXCEPCIONALES</span>
         <h2 class="section-title">Diseñado para la velocidad del pensamiento</h2>
-        <p class="section-desc">Arquitectura modular entrenada en millones de datos para ofrecer precisión milimétrica.</p>
+        <p class="section-desc">Arquitectura modular entrenada en millones de datos para ofrecer precisión milimétrica.
+        </p>
       </div>
 
       <div class="features-grid">
@@ -196,7 +205,8 @@
             <i data-lucide="brain-circuit"></i>
           </div>
           <h3>Razonamiento Multimodal</h3>
-          <p>Comprende texto, esquemas arquitectónicos, audio y código simultáneamente con atención cruzada de contexto profundo.</p>
+          <p>Comprende texto, esquemas arquitectónicos, audio y código simultáneamente con atención cruzada de contexto
+            profundo.</p>
           <div class="feature-tag">Red Neuronal 4.5</div>
         </div>
 
@@ -205,7 +215,8 @@
             <i data-lucide="zap"></i>
           </div>
           <h3>Inferencia en Microsegundos</h3>
-          <p>Aceleración por hardware dedicada en nodos perimetrales globales garantizando tiempos de respuesta ultrarrápidos.</p>
+          <p>Aceleración por hardware dedicada en nodos perimetrales globales garantizando tiempos de respuesta
+            ultrarrápidos.</p>
           <div class="feature-tag">Edge Computing</div>
         </div>
 
@@ -214,7 +225,8 @@
             <i data-lucide="lock"></i>
           </div>
           <h3>Privacidad Zero-Knowledge</h3>
-          <p>Tus datos y solicitudes nunca se utilizan para reentrenar modelos públicos. Cifrado AES-256 de extremo a extremo.</p>
+          <p>Tus datos y solicitudes nunca se utilizan para reentrenar modelos públicos. Cifrado AES-256 de extremo a
+            extremo.</p>
           <div class="feature-tag">Cumplimiento SOC2</div>
         </div>
 
@@ -223,7 +235,8 @@
             <i data-lucide="cpu"></i>
           </div>
           <h3>Fine-Tuning Instantáneo</h3>
-          <p>Adapta el comportamiento del modelo a la base de conocimiento de tu empresa con solo subir tus documentos.</p>
+          <p>Adapta el comportamiento del modelo a la base de conocimiento de tu empresa con solo subir tus documentos.
+          </p>
           <div class="feature-tag">LoRA & RAG Nativo</div>
         </div>
 
@@ -232,7 +245,8 @@
             <i data-lucide="git-merge"></i>
           </div>
           <h3>Agentes Autónomos</h3>
-          <p>Crea flujos de trabajo multi-agente capaces de ejecutar tareas encadenadas, llamadas a APIs y análisis continuo.</p>
+          <p>Crea flujos de trabajo multi-agente capaces de ejecutar tareas encadenadas, llamadas a APIs y análisis
+            continuo.</p>
           <div class="feature-tag">Auto-Feedback</div>
         </div>
 
@@ -241,7 +255,8 @@
             <i data-lucide="infinity"></i>
           </div>
           <h3>Ventana de Contexto 1M</h3>
-          <p>Analiza repositorios de código completos o libros enteros en una sola llamada sin perder fidelidad analítica.</p>
+          <p>Analiza repositorios de código completos o libros enteros en una sola llamada sin perder fidelidad
+            analítica.</p>
           <div class="feature-tag">1,000,000 Tokens</div>
         </div>
       </div>
@@ -256,7 +271,8 @@
           <span class="section-subtitle">INTEGRACIÓN PARA DESARROLLADORES</span>
           <h2 class="section-title">Listo para producción en 3 líneas</h2>
           <p class="section-desc">
-            SDKs nativos para TypeScript, Python, Go y Rust. Conexión mediante streaming SSE para respuestas fluidas tipo ChatGPT con control granular de temperatura y top_p.
+            SDKs nativos para TypeScript, Python, Go y Rust. Conexión mediante streaming SSE para respuestas fluidas
+            tipo ChatGPT con control granular de temperatura y top_p.
           </p>
 
           <ul class="dev-feature-list">
@@ -361,7 +377,8 @@ for chunk in stream:
       <div class="section-header text-center">
         <span class="section-subtitle">PLANES TRANSPARENTES</span>
         <h2 class="section-title">Escala a tu propio ritmo</h2>
-        <p class="section-desc">Comienza sin costo y paga únicamente por los tokens y capacidad que realmente utilizas.</p>
+        <p class="section-desc">Comienza sin costo y paga únicamente por los tokens y capacidad que realmente utilizas.
+        </p>
 
         <!-- Billing Toggle -->
         <div class="billing-toggle-container">
@@ -458,7 +475,9 @@ for chunk in stream:
             <i data-lucide="chevron-down" class="faq-icon"></i>
           </button>
           <div class="faq-answer">
-            <p>NEXA utiliza una arquitectura híbrida de Mixture of Experts (MoE) optimizada específicamente para razonamiento matemático, ejecución de código y comprensión de contextos masivos con hasta un 70% menos de latencia que modelos convencionales.</p>
+            <p>NEXA utiliza una arquitectura híbrida de Mixture of Experts (MoE) optimizada específicamente para
+              razonamiento matemático, ejecución de código y comprensión de contextos masivos con hasta un 70% menos de
+              latencia que modelos convencionales.</p>
           </div>
         </div>
 
@@ -468,7 +487,8 @@ for chunk in stream:
             <i data-lucide="chevron-down" class="faq-icon"></i>
           </button>
           <div class="faq-answer">
-            <p>De ninguna manera. Nuestra política Zero-Data Retention asegura que ningún dato enviado a través de la API o la plataforma sea almacenado o usado para fines de entrenamiento de modelos futuros.</p>
+            <p>De ninguna manera. Nuestra política Zero-Data Retention asegura que ningún dato enviado a través de la
+              API o la plataforma sea almacenado o usado para fines de entrenamiento de modelos futuros.</p>
           </div>
         </div>
 
@@ -478,7 +498,8 @@ for chunk in stream:
             <i data-lucide="chevron-down" class="faq-icon"></i>
           </button>
           <div class="faq-answer">
-            <p>Sí. Nuestra API es 100% compatible con la especificación de OpenAI. Solo necesitas cambiar el `baseURL` y tu clave de autenticación para comenzar a trabajar sin rehacer tu lógica.</p>
+            <p>Sí. Nuestra API es 100% compatible con la especificación de OpenAI. Solo necesitas cambiar el `baseURL` y
+              tu clave de autenticación para comenzar a trabajar sin rehacer tu lógica.</p>
           </div>
         </div>
 
@@ -488,7 +509,8 @@ for chunk in stream:
             <i data-lucide="chevron-down" class="faq-icon"></i>
           </button>
           <div class="faq-answer">
-            <p>Absolutamente. Puedes registrarte y obtener 50,000 tokens al mes sin ingresar información bancaria. Además, los planes Pro cuentan con 14 días de prueba sin compromiso.</p>
+            <p>Absolutamente. Puedes registrarte y obtener 50,000 tokens al mes sin ingresar información bancaria.
+              Además, los planes Pro cuentan con 14 días de prueba sin compromiso.</p>
           </div>
         </div>
       </div>
@@ -502,8 +524,9 @@ for chunk in stream:
         <div class="cta-glow"></div>
         <div class="cta-content">
           <h2 class="cta-title">¿Listo para construir el futuro hoy?</h2>
-          <p class="cta-desc">Únete a miles de ingenieros y creadores que ya están multiplicando su productividad con NEXA AI.</p>
-          
+          <p class="cta-desc">Únete a miles de ingenieros y creadores que ya están multiplicando su productividad con
+            NEXA AI.</p>
+
           <form class="cta-form" id="newsletterForm">
             <div class="input-wrapper">
               <i data-lucide="mail" class="input-icon"></i>
@@ -514,7 +537,8 @@ for chunk in stream:
               <i data-lucide="arrow-right"></i>
             </button>
           </form>
-          <span class="cta-note"><i data-lucide="shield-check" class="icon-xs"></i> Sin tarjeta requerida • Configuración en 2 minutos</span>
+          <span class="cta-note"><i data-lucide="shield-check" class="icon-xs"></i> Sin tarjeta requerida •
+            Configuración en 2 minutos</span>
         </div>
       </div>
     </div>
@@ -531,7 +555,8 @@ for chunk in stream:
           <span class="logo-text">NEXA<span class="gradient-text">.AI</span></span>
         </a>
         <p class="footer-tagline">
-          Infraestructura de inteligencia artificial multimodal diseñada para el rendimiento, la privacidad y la innovación continua.
+          Infraestructura de inteligencia artificial multimodal diseñada para el rendimiento, la privacidad y la
+          innovación continua.
         </p>
         <div class="footer-socials">
           <a href="#" class="social-link" aria-label="GitHub"><i data-lucide="github"></i></a>
@@ -587,4 +612,5 @@ for chunk in stream:
 
   <script src="script.js"></script>
 </body>
+
 </html>
